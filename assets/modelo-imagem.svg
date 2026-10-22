@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Imagem de exemplo para o modelo de artigo</title>
+  <desc id="d">Ilustração de uma pista oval com carrinho e indicação de substituição</desc>
+  <rect width="1200" height="675" fill="#1b493f"/><ellipse cx="600" cy="300" rx="370" ry="220" fill="none" stroke="#91a99e" stroke-width="28"/><ellipse cx="600" cy="300" rx="320" ry="170" fill="none" stroke="#c9e866" stroke-width="4" stroke-dasharray="14 14"/><rect x="482" y="268" width="236" height="84" rx="38" fill="#e87842"/><text x="600" y="590" fill="#fff" font-family="Arial,sans-serif" font-size="30" text-anchor="middle">SUBSTITUIR PELA IMAGEM DO ARTIGO</text>
+</svg>

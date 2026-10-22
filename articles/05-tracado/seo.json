@@ -1,0 +1,46 @@
+{
+  "title": "Traçado da pista de autorama: leia as curvas",
+  "metaDescription": "Veja como raio, reta anterior, emendas e sequências de curvas mudam o ritmo possível e aprenda a ler uma pista de autorama antes de correr com calma.",
+  "slug": "/tracado-pista-autorama-velocidade-curvas",
+  "primaryKeyword": "traçado da pista de autorama",
+  "secondaryKeywords": [
+    "raio da curva autorama",
+    "pista de autorama rápida",
+    "ler a pista de autorama"
+  ],
+  "audience": "Praticantes do hobby que querem evoluir e andar mais rápido sem tirar o carro da pista.",
+  "geographicScope": "Não definido pelo site; idioma editorial pt-BR.",
+  "images": [
+    {
+      "file": "/articles/05-tracado/images/a5-hero-pista-ampla.webp",
+      "alt": "Traçado da pista de autorama com retas, curvas e sequência em S"
+    },
+    {
+      "file": "/articles/05-tracado/images/a5-raio-curva.webp",
+      "alt": "Diferença de raio entre curva aberta e curva fechada em pista de autorama"
+    },
+    {
+      "file": "/articles/05-tracado/images/a5-reta-antes-curva.webp",
+      "alt": "Reta longa antes de uma curva em pista de autorama"
+    },
+    {
+      "file": "/articles/05-tracado/images/a5-emenda-desnivel.webp",
+      "alt": "Emenda entre peças de pista de autorama com pequeno desnível"
+    },
+    {
+      "file": "/articles/05-tracado/images/a5-plano-de-corrida.webp",
+      "alt": "Pista de autorama com marcações para planejar a corrida"
+    }
+  ],
+  "structuredData": [
+    "Article",
+    "FAQPage"
+  ],
+  "canonical": "[INSERIR DOMÍNIO]/tracado-pista-autorama-velocidade-curvas/",
+  "faq": [
+    "Uma pista com curvas abertas é sempre mais rápida?",
+    "Como ler a pista de autorama antes da primeira corrida?",
+    "O raio das curvas muda entre as faixas do autorama?",
+    "Uma emenda pode fazer o carro sair da pista?"
+  ]
+}

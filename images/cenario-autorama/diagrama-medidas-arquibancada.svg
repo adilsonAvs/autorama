@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Medidas de uma arquibancada de quatro fileiras</title><desc id="desc">Vista lateral esquemática de arquibancada em quatro degraus com cotas para elevação, profundidade, altura total e mureta de proteção.</desc>
+<rect width="1200" height="700" rx="28" fill="#f7f7f2"/>
+<text x="60" y="62" fill="#1e2825" font-family="Arial,sans-serif" font-size="30" font-weight="700">Arquibancada em miniatura · vista lateral</text>
+<line x1="155" y1="540" x2="965" y2="540" stroke="#68716d" stroke-width="4"/>
+<rect x="185" y="465" width="42" height="75" rx="5" fill="#d99a70" stroke="#9c6245" stroke-width="3"/>
+<path d="M245 500H350V440H455V380H560V320H665V260H790V540H245Z" fill="#dce9df" stroke="#55776d" stroke-width="5" stroke-linejoin="round"/>
+<path d="M245 500H350M350 440H455M455 380H560M560 320H665" stroke="#fff" stroke-width="10"/>
+<g fill="#45534d"><circle cx="292" cy="477" r="9"/><circle cx="391" cy="417" r="9"/><circle cx="496" cy="357" r="9"/><circle cx="601" cy="297" r="9"/></g>
+<text x="245" y="575" font-family="Arial,sans-serif" font-size="18" fill="#1e2825">4 fileiras · desenho esquemático</text>
+<g stroke="#1b493f" stroke-width="3" fill="none"><path d="M690 260h45M690 500h45M724 268v224"/><path d="m716 278 8-12 8 12M716 490l8 12 8-12"/></g>
+<text x="750" y="370" font-family="Arial,sans-serif" font-size="20" fill="#1e2825">Altura total</text><text x="750" y="399" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#1b493f">cerca de 5 cm</text>
+<g stroke="#1b493f" stroke-width="3" fill="none"><path d="M350 424v-28M455 364v-28M377 345h51"/><path d="m387 337-10 8 10 8M419 337l10 8-10 8"/></g>
+<text x="354" y="315" font-family="Arial,sans-serif" font-size="18" fill="#1e2825">Profundidade por fileira</text><text x="371" y="339" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#1b493f">2 a 2,5 cm</text>
+<g stroke="#1b493f" stroke-width="3" fill="none"><path d="M465 375h35M465 440h35M487 384v48"/><path d="m479 393 8-10 8 10M479 423l8 10 8-10"/></g>
+<text x="510" y="402" font-family="Arial,sans-serif" font-size="17" fill="#1e2825">Degrau</text><text x="510" y="426" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1b493f">1,2 a 1,5 cm</text>
+<g stroke="#c73935" stroke-width="3" fill="none"><path d="M166 465h-25M166 540h-25M149 473v59"/><path d="m141 482 8-10 8 10M141 523l8 10 8-10"/></g>
+<text x="62" y="425" font-family="Arial,sans-serif" font-size="17" fill="#1e2825">Mureta de</text><text x="62" y="449" font-family="Arial,sans-serif" font-size="17" fill="#1e2825">proteção</text><text x="62" y="473" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#c73935">1 a 1,5 cm</text>
+<text x="185" y="620" font-family="Arial,sans-serif" font-size="16" fill="#68716d">Medidas aproximadas para escala 1/32; adapte ao espaço e às peças disponíveis.</text>
+</svg>

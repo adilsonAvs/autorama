@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo Grid do Autorama</title>
+  <desc id="desc">Monograma GA cercado por uma pista oval em verde-lima e laranja.</desc>
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="#c9e866"/>
+  <path d="M20 64c0-17 15-31 34-31h20c19 0 34 14 34 31S93 95 74 95H54C35 95 20 81 20 64Z" fill="none" stroke="#1b493f" stroke-width="5"/>
+  <path d="M28 64c0-12 11-22 26-22h20c15 0 26 10 26 22S89 86 74 86H54C39 86 28 76 28 64Z" fill="none" stroke="#1b493f" stroke-width="2" stroke-dasharray="4 5" opacity=".7"/>
+  <path d="M48 57h31c7 0 12 4 12 9s-5 9-12 9H48c-7 0-12-4-12-9s5-9 12-9Z" fill="#e87842" stroke="#1b493f" stroke-width="3"/>
+  <path d="M53 52h19c5 0 8 3 8 6H45c0-3 3-6 8-6Z" fill="#f6f5ef" stroke="#1b493f" stroke-width="2"/>
+  <circle cx="51" cy="77" r="4" fill="#1e2825"/><circle cx="77" cy="77" r="4" fill="#1e2825"/>
+</svg>

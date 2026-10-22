@@ -1,0 +1,46 @@
+{
+  "title": "Frenagem no autorama: quando reduzir antes da curva",
+  "metaDescription": "Entenda como o freio do autorama varia entre controles, encontre um ponto de referência e escolha entre frear cedo ou aliviar o gatilho antes da curva.",
+  "slug": "/frenagem-autorama-curvas",
+  "primaryKeyword": "frenagem no autorama",
+  "secondaryKeywords": [
+    "freio do autorama",
+    "como frear carro de autorama",
+    "freio no controle de autorama"
+  ],
+  "audience": "Praticantes do hobby que querem evoluir e andar mais rápido sem tirar o carro da pista.",
+  "geographicScope": "Não definido pelo site; idioma editorial pt-BR.",
+  "images": [
+    {
+      "file": "/articles/02-frenagem/images/a2-hero-controle-freio.webp",
+      "alt": "Frenagem no autorama: controle com regulagem de freio"
+    },
+    {
+      "file": "/articles/02-frenagem/images/a2-ponto-referencia.webp",
+      "alt": "Marca de referência na pista para o ponto de frenagem do autorama"
+    },
+    {
+      "file": "/articles/02-frenagem/images/a2-reta-final-curva-fechada.webp",
+      "alt": "Reta longa terminando em curva fechada em pista de autorama"
+    },
+    {
+      "file": "/articles/02-frenagem/images/a2-controle-simples-sem-freio.webp",
+      "alt": "Controle simples de autorama sem regulagem de freio"
+    },
+    {
+      "file": "/articles/02-frenagem/images/a2-sequencia-curvas.webp",
+      "alt": "Duas curvas em sequência em uma pista de autorama"
+    }
+  ],
+  "structuredData": [
+    "Article",
+    "FAQPage"
+  ],
+  "canonical": "[INSERIR DOMÍNIO]/frenagem-autorama-curvas/",
+  "faq": [
+    "Todo controle de autorama tem freio?",
+    "Como frear carro de autorama sem um botão de freio?",
+    "Mais freio sempre ajuda a fazer a curva?",
+    "O freio no controle de autorama é igual no digital e no analógico?"
+  ]
+}

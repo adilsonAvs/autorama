@@ -1,0 +1,46 @@
+{
+  "title": "Trajetória no autorama: entenda a linha de cada curva",
+  "metaDescription": "Entenda o que significa trajetória no autorama, compare faixas e organize entrada, ápice e saída sem confundir slot car com direção de carro real.",
+  "slug": "/trajetoria-autorama-curvas",
+  "primaryKeyword": "trajetória no autorama",
+  "secondaryKeywords": [
+    "linha ideal autorama",
+    "escolha de faixa no autorama",
+    "como contornar curvas no autorama"
+  ],
+  "audience": "Praticantes do hobby que querem evoluir e andar mais rápido sem tirar o carro da pista.",
+  "geographicScope": "Não definido pelo site; idioma editorial pt-BR.",
+  "images": [
+    {
+      "file": "/articles/03-trajetoria/images/a3-hero-guia-trilho.webp",
+      "alt": "Trajetória no autorama: guia do carro encaixada no trilho da pista"
+    },
+    {
+      "file": "/articles/03-trajetoria/images/a3-faixa-interna-externa.webp",
+      "alt": "Curva de autorama com faixa interna e faixa externa"
+    },
+    {
+      "file": "/articles/03-trajetoria/images/a3-entrada-apice-saida.webp",
+      "alt": "Três momentos de um carro de autorama em uma mesma curva"
+    },
+    {
+      "file": "/articles/03-trajetoria/images/a3-troca-faixa-digital.webp",
+      "alt": "Carro de autorama digital trocando de faixa em peça de desvio"
+    },
+    {
+      "file": "/articles/03-trajetoria/images/a3-mapa-pista-papel.webp",
+      "alt": "Desenho de uma pista de autorama para planejar a corrida"
+    }
+  ],
+  "structuredData": [
+    "Article",
+    "FAQPage"
+  ],
+  "canonical": "[INSERIR DOMÍNIO]/trajetoria-autorama-curvas/",
+  "faq": [
+    "O slot car faz uma trajetória livre dentro da curva?",
+    "A faixa externa é sempre mais rápida?",
+    "O que significa ápice no autorama?",
+    "Posso trocar de faixa em qualquer autorama?"
+  ]
+}

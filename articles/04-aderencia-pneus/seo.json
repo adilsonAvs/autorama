@@ -1,0 +1,46 @@
+{
+  "title": "Aderência dos pneus no autorama: veja as causas",
+  "metaDescription": "Reconheça por que o pneu de autorama escorrega, teste a aderência em duas voltas e saiba quando uma pista limpa ou a troca do pneu ajudam com segurança.",
+  "slug": "/aderencia-pneus-autorama",
+  "primaryKeyword": "aderência dos pneus no autorama",
+  "secondaryKeywords": [
+    "pneu de autorama escorregando",
+    "limpar pneu de autorama",
+    "pista de autorama escorregadia"
+  ],
+  "audience": "Praticantes do hobby que querem evoluir e andar mais rápido sem tirar o carro da pista.",
+  "geographicScope": "Não definido pelo site; idioma editorial pt-BR.",
+  "images": [
+    {
+      "file": "/articles/04-aderencia-pneus/images/a4-hero-pneu-macro.webp",
+      "alt": "Aderência dos pneus no autorama: pneu traseiro em contato com o trilho"
+    },
+    {
+      "file": "/articles/04-aderencia-pneus/images/a4-pista-limpa-poeira.webp",
+      "alt": "Pano macio limpando a poeira da pista de autorama"
+    },
+    {
+      "file": "/articles/04-aderencia-pneus/images/a4-teste-duas-voltas.webp",
+      "alt": "Teste de aderência de um carro de autorama em duas voltas"
+    },
+    {
+      "file": "/articles/04-aderencia-pneus/images/a4-pneu-desgastado.webp",
+      "alt": "Comparação entre pneu novo e pneu desgastado de autorama"
+    },
+    {
+      "file": "/articles/04-aderencia-pneus/images/a4-peso-chassi.webp",
+      "alt": "Pesos adesivos no chassi de um carro de autorama"
+    }
+  ],
+  "structuredData": [
+    "Article",
+    "FAQPage"
+  ],
+  "canonical": "[INSERIR DOMÍNIO]/aderencia-pneus-autorama/",
+  "faq": [
+    "Como saber se é pneu de autorama escorregando ou velocidade alta?",
+    "Posso limpar pneu de autorama com qualquer produto?",
+    "Quando a pista de autorama escorregadia precisa ser limpa?",
+    "Mais peso melhora a aderência?"
+  ]
+}

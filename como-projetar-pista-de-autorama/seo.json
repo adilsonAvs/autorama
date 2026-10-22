@@ -1,0 +1,114 @@
+{
+  "title": "Projetar pista de autorama: curvas e espaço",
+  "metaDescription": "Planeje curvas, retas e traçado conforme o espaço disponível. Veja exemplos, medidas de partida e cuidados para montar uma pista de autorama estável.",
+  "slug": "/como-projetar-pista-de-autorama",
+  "primaryKeyword": "projetar pista de autorama",
+  "secondaryKeywords": [
+    "como montar pista de autorama",
+    "layout de pista de autorama",
+    "curvas de autorama",
+    "pista de autorama em espaço pequeno",
+    "traçado de pista de autorama"
+  ],
+  "images": [
+    {
+      "file": "images/hero-pista-autorama.webp",
+      "fallback": "images/hero-pista-autorama.jpg",
+      "alt": "Planejamento para projetar pista de autorama com curvas, retas e carros em miniatura"
+    },
+    {
+      "file": "images/medindo-espaco-mesa.webp",
+      "fallback": "images/medindo-espaco-mesa.jpg",
+      "alt": "Medindo o espaço da mesa para projetar uma pista de autorama"
+    },
+    {
+      "file": "images/tipos-de-pista.webp",
+      "fallback": "images/tipos-de-pista.jpg",
+      "alt": "Comparação entre pista oval e traçado em oito com ponte elevada para autorama"
+    },
+    {
+      "file": "images/reta-longa.webp",
+      "fallback": "images/reta-longa.jpg",
+      "alt": "Carro de autorama acelerando em uma reta longa"
+    },
+    {
+      "file": "images/curva-fechada-e-aberta.webp",
+      "fallback": "images/curva-fechada-e-aberta.jpg",
+      "alt": "Curva aberta e curva fechada em uma pista de autorama"
+    },
+    {
+      "file": "images/sequencia-em-s.webp",
+      "fallback": "images/sequencia-em-s.jpg",
+      "alt": "Sequência de curvas em S em uma pista de autorama"
+    },
+    {
+      "file": "images/ponte-cruzamento.webp",
+      "fallback": "images/ponte-cruzamento.jpg",
+      "alt": "Ponte e cruzamento em uma pista de autorama"
+    },
+    {
+      "file": "images/encaixe-pecas-trilho.webp",
+      "fallback": "images/encaixe-pecas-trilho.jpg",
+      "alt": "Encaixe e alinhamento dos trilhos entre peças de pista de autorama"
+    },
+    {
+      "file": "images/teste-primeiras-voltas.webp",
+      "fallback": "images/teste-primeiras-voltas.jpg",
+      "alt": "Testando as primeiras voltas em uma pista de autorama recém-montada"
+    },
+    {
+      "file": "images/layouts-por-espaco.webp",
+      "fallback": "images/layouts-por-espaco.jpg",
+      "alt": "Traçados de pista de autorama para espaços pequeno, médio e grande"
+    }
+  ],
+  "structuredData": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Como projetar uma pista de autorama: curvas, retas e espaço disponível",
+      "description": "Planeje curvas, retas e traçado conforme o espaço disponível. Veja exemplos, medidas de partida e cuidados para montar uma pista de autorama estável.",
+      "image": "[INSERIR DOMÍNIO]/images/hero-pista-autorama.webp",
+      "inLanguage": "pt-BR"
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é o tamanho mínimo para uma pista de autorama?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há um tamanho mínimo que sirva para todo sistema. O espaço necessário depende das dimensões e dos raios das peças disponíveis; monte o desenho em escala ou faça uma disposição a seco para conferir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Uma pista em oito precisa de uma ponte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quando o traçado cruza a si mesmo, os carros precisam passar em níveis diferentes ou usar um módulo de cruzamento próprio do sistema. Confira no manual quais peças permitem esse formato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como saber se o raio da curva é adequado ao meu carro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Considere o raio e a geometria das peças do seu sistema e faça testes em velocidade baixa. O comportamento muda com o carro, os pneus, a escala e a superfície da pista."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usar trilhos de marcas ou escalas diferentes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não presuma compatibilidade. Largura, conectores, contatos e dimensões podem variar entre fabricantes e sistemas; confirme a compatibilidade antes de unir peças."
+          }
+        }
+      ]
+    }
+  },
+  "publicationNote": "O domínio, a data real de publicação, o nome do autor e a minibio permanecem como marcadores porque não estão confirmados no projeto."
+}

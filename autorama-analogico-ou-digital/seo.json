@@ -1,0 +1,54 @@
+{
+  "title": "Autorama analógico ou digital: diferenças e escolha",
+  "metaDescription": "Compare autorama analógico ou digital: entenda funcionamento, custos relativos e compatibilidade para escolher o sistema que combina com sua corrida.",
+  "slug": "/autorama-analogico-ou-digital",
+  "primaryKeyword": "autorama analógico ou digital",
+  "secondaryKeywords": [
+    "diferença entre autorama analógico e digital",
+    "qual autorama comprar",
+    "autorama digital vale a pena",
+    "compatibilidade autorama",
+    "autorama para iniciantes"
+  ],
+  "images": [
+    {
+      "file": "/images/hero-analogico-vs-digital.webp",
+      "alt": "Pista de autorama analógico ao lado de uma pista de autorama digital"
+    },
+    {
+      "file": "/images/controles-analogico.webp",
+      "alt": "Controles manuais de um autorama analógico com um carro por faixa"
+    },
+    {
+      "file": "/images/carros-mesma-faixa.webp",
+      "alt": "Vários carros de autorama digital correndo na mesma faixa"
+    },
+    {
+      "file": "/images/decodificador-chassi.webp",
+      "alt": "Decodificador instalado no chassi de um carro de autorama digital"
+    },
+    {
+      "file": "/images/pista-troca-de-faixa.webp",
+      "alt": "Carro de autorama digital trocando de faixa em peça de desvio"
+    },
+    {
+      "file": "/images/kit-e-carros-na-mesa.webp",
+      "alt": "Itens que compõem um conjunto inicial de autorama"
+    },
+    {
+      "file": "/images/trilhos-diferentes.webp",
+      "alt": "Encaixes e trilhos diferentes entre peças de pista de autorama"
+    },
+    {
+      "file": "/images/criancas-e-adultos-jogando.webp",
+      "alt": "Pessoas de diferentes idades jogando autorama em volta da pista"
+    }
+  ],
+  "structuredData": [
+    "Article",
+    "FAQPage"
+  ],
+  "canonical": "[INSERIR DOMÍNIO]/autorama-analogico-ou-digital/",
+  "audience": "Pessoas pesquisando antes de comprar: iniciantes, famílias, colecionadores e entusiastas.",
+  "geographicScope": "Não definido no projeto; idioma editorial: pt-BR."
+}

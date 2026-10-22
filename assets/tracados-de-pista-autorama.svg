@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Três ideias de traçado para autorama</title>
+  <desc id="desc">Diagrama ilustrativo de um oval, um circuito em oito com cruzamento desnivelado apropriado e um traçado sinuoso.</desc>
+  <rect width="1200" height="520" rx="24" fill="#f6f5ef"/>
+  <g fill="#1b493f" font-family="Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+    <text x="200" y="65">OVAL</text><text x="600" y="65">OITO</text><text x="1000" y="65">SINUOSO</text>
+  </g>
+  <g fill="none" stroke="#1b493f" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M85 260 C85 170 125 125 205 125 C285 125 325 170 325 260 C325 350 285 395 205 395 C125 395 85 350 85 260Z"/>
+    <path d="M480 260 C480 160 535 125 600 125 C665 125 720 160 720 260 C720 360 665 395 600 395 C535 395 480 360 480 260Z"/>
+    <path d="M880 260 C880 160 925 125 980 125 C1040 125 1080 175 1080 225 C1080 270 1040 290 1000 290 C950 290 920 250 920 215 C920 165 950 125 1015 125"/>
+  </g>
+  <g fill="none" stroke="#c9e866" stroke-width="5" stroke-dasharray="12 12">
+    <path d="M85 260 C85 170 125 125 205 125 C285 125 325 170 325 260 C325 350 285 395 205 395 C125 395 85 350 85 260Z"/>
+    <path d="M480 260 C480 160 535 125 600 125 C665 125 720 160 720 260 C720 360 665 395 600 395 C535 395 480 360 480 260Z"/>
+    <path d="M880 260 C880 160 925 125 980 125 C1040 125 1080 175 1080 225 C1080 270 1040 290 1000 290 C950 290 920 250 920 215 C920 165 950 125 1015 125"/>
+  </g>
+  <g fill="#68716d" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">
+    <text x="200" y="465">Poucas curvas e montagem simples</text>
+    <text x="600" y="465">Use somente cruzamento elevado compatível</text>
+    <text x="1000" y="465">Combine retas e curvas disponíveis</text>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /modelo-artigo.html
+Sitemap: [INSERIR DOMÍNIO]/sitemap.xml

@@ -1,0 +1,45 @@
+{
+  "title": "Controle do acelerador no autorama: curvas mais estáveis",
+  "metaDescription": "Aprenda a dosar o gatilho antes, durante e depois da curva, reconhecer sinais de perda de controle e treinar o acelerador no autorama com método.",
+  "slug": "/controle-acelerador-autorama",
+  "primaryKeyword": "controle do acelerador no autorama",
+  "secondaryKeywords": [
+    "como acelerar nas curvas do autorama",
+    "gatilho do autorama",
+    "carro de autorama saindo da pista"
+  ],
+  "audience": "Praticantes do hobby que querem evoluir e andar mais rápido sem tirar o carro da pista.",
+  "geographicScope": "Não definido pelo site; idioma editorial pt-BR.",
+  "images": [
+    {
+      "file": "/articles/01-controle-acelerador/images/a1-hero-gatilho-curva.webp",
+      "alt": "Controle do acelerador no autorama: mão no gatilho enquanto o carro entra na curva"
+    },
+    {
+      "file": "/articles/01-controle-acelerador/images/a1-entrada-curva-solta.webp",
+      "alt": "Carro de autorama chegando à entrada de uma curva"
+    },
+    {
+      "file": "/articles/01-controle-acelerador/images/a1-meio-curva-constante.webp",
+      "alt": "Carro de autorama no meio da curva mantendo velocidade constante"
+    },
+    {
+      "file": "/articles/01-controle-acelerador/images/a1-saida-curva-acelera.webp",
+      "alt": "Carro de autorama saindo da curva e acelerando na reta"
+    },
+    {
+      "file": "/articles/01-controle-acelerador/images/a1-traseira-escorregando.webp",
+      "alt": "Traseira de um carro de autorama no limite de aderência na curva"
+    }
+  ],
+  "structuredData": [
+    "Article",
+    "FAQPage"
+  ],
+  "canonical": "[INSERIR DOMÍNIO]/controle-acelerador-autorama/",
+  "faq": [
+    "Devo soltar totalmente o gatilho antes de toda curva?",
+    "Como acelerar nas curvas do autorama sem perder a traseira?",
+    "O som do motor mostra o limite do carro?"
+  ]
+}

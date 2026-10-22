@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "highlights:build": "node tools/build-highlights.mjs",
+    "highlights:watch": "node tools/build-highlights.mjs --watch",
+    "test:highlights": "node tests/highlights.test.mjs"
+  }
+}
