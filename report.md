@@ -7,7 +7,7 @@
 - **Palavra-chave principal:** OK — no título H1, no início do corpo, em um H2 e no alt da imagem principal.
 - **Texto:** OK — não encontrei as fórmulas automáticas proibidas no corpo. O texto diferencia procedimentos conforme o modelo e orienta consulta ao manual.
 - **SEO:** OK — title com 46 caracteres; meta description com 143 caracteres; slug `/manutencao-carros-de-autorama/`; Open Graph e Twitter Card presentes.
-- **Dados estruturados:** OK — JSON-LD Article e FAQPage são JSON válido e correspondem às perguntas visíveis. Substitua data e autor pelos valores verdadeiros antes da publicação.
+- **Dados estruturados:** OK — JSON-LD Article e FAQPage são JSON válido e correspondem às perguntas visíveis. A autoria padrão foi definida como Adilson V. Santos; confira a data editorial antes da publicação.
 - **Imagens:** OK — nove imagens originais, cada uma posicionada junto à seção correspondente, com alt, dimensões 1600 × 900 e legenda. Todas têm versões WebP abaixo de 200 KB e cópias JPG de reserva. Nenhuma imagem contém texto ou logo legível.
 - **Links internos:** OK — há links para conteúdo existente no site e três marcadores `{{LINK_INTERNO: ...}}` para futuras páginas internas.
 - **AdSense:** OK na revisão editorial — não há conteúdo proibido, promessa exagerada ou incentivo a clique. Há dois pontos reservados apenas por comentários HTML; nenhum anúncio real foi instalado. Isso não garante aprovação do Google.
@@ -16,7 +16,7 @@
 
 ## Para concluir antes de publicar
 
-O domínio real ainda está como `[INSERIR DOMÍNIO]`. Preencha-o em canonical, metadados e dados estruturados. Troque `{{DATA_DE_PUBLICAÇÃO_ISO}}`, `{{NOME_DO_AUTOR}}` e `{{MINIBIO}}` por informações confirmadas. Os três marcadores de links internos podem ser substituídos à medida que existirem artigos relacionados.
+O domínio real ainda está como `[SEU DOMÍNIO]`. Preencha-o em canonical, metadados e dados estruturados. A autoria padrão é Adilson V. Santos; as datas devem corresponder à publicação real. Os três marcadores de links internos podem ser substituídos à medida que existirem artigos relacionados.
 
 ## Arquivos
 
@@ -74,4 +74,4 @@ Todas as comparações ficaram abaixo de 3%; as cinco aberturas são diferentes.
 - HTML com tags equilibradas, JSON-LD/JSON parseáveis, arquivos e links locais presentes, sitemap XML válido: **ok**.
 - Responsividade, fonte e contraste pelo sistema visual do site; largura de leitura aproximada de 720 px: **ok**.
 
-O domínio público continua como `[INSERIR DOMÍNIO]`, igual à configuração vigente. Cada `articles/<pasta>/article.html` é um artefato editorial `noindex,follow`; as rotas públicas nos slugs correspondentes têm `index,follow` e canonical próprio. Datas e autoria permanecem como placeholders para preenchimento com dados confirmados.
+O domínio público continua como `[SEU DOMÍNIO]`, igual à configuração vigente. Cada `articles/<pasta>/article.html` é um artefato editorial `noindex,follow`; as rotas públicas nos slugs correspondentes têm `index,follow` e canonical próprio. A autoria foi padronizada como Adilson V. Santos; datas devem refletir a publicação real.

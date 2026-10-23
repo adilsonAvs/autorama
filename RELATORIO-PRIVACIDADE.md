@@ -4,7 +4,7 @@
 
 ## Estado verificado no diretório
 
-- `js/config.js` traz `[INSERIR DOMÍNIO]`, sem domínio público configurado. Nenhum endereço foi inventado; canônicos mantêm o marcador em arquivo e usam domínio configurado ou host público corrente quando servido por HTTP(S).
+- `js/config.js` traz `[SEU DOMÍNIO]`, sem domínio público configurado. Nenhum endereço foi inventado; canônicos mantêm o marcador em arquivo e usam domínio configurado ou host público corrente quando servido por HTTP(S).
 - O conteúdo e as categorias indicam público editorial interessado em autorama/automobilismo em miniatura. O idioma está em `pt-BR`; o recorte geográfico e o perfil de visitantes reais não estão confirmados. Não há Analytics nem artigos efetivamente publicados que permitam afirmar audiência medida.
 - A cópia não contém tag de AdSense, publisher ID nem código de anúncio; Analytics também está desligado. A flag de AdSense foi alinhada para `false`.
 - Contato envia nome, e-mail e mensagem ao Web3Forms. A política agora explica o fornecedor, a retenção divulgada pelo fornecedor e seu possível processamento internacional.

@@ -15,7 +15,7 @@
   const header = document.querySelector("[data-site-header]");
   if (header) header.innerHTML = `<a class="skip-link" href="#conteudo">Pular para o conteúdo</a><div class="topline"><div class="wrap topline-inner"><span>Um espaço para quem gosta de autorama</span><a href="contato.html">Fale com a gente <span aria-hidden="true">↗</span></a></div></div><div class="wrap masthead"><a class="brand brand-header" href="index.html" aria-label="Grid do Autorama, página inicial"><img class="brand-banner" src="assets/banner-grid-do-autorama.svg" alt="Grid do Autorama — pistas, carrinhos e histórias"></a><button class="menu-toggle" aria-expanded="false" aria-controls="menu-principal">Menu</button><nav id="menu-principal" aria-label="Navegação principal"><ul>${nav.map(([label, href]) => `<li><a href="${href}">${label}</a></li>`).join("")}</ul></nav></div>`;
   const footer = document.querySelector("[data-site-footer]");
-  if (footer) footer.innerHTML = `<div class="footer-main wrap"><div class="footer-about"><a class="brand brand-light" href="index.html"><img class="brand-logo" src="assets/logo-grid-do-autorama.svg" alt=""><span><strong>Grid do Autorama</strong><small>${slogan}</small></span></a><p>Um portal dedicado ao hobby do autorama: suas pistas, seus carrinhos, sua cultura e tudo o que envolve esse universo.</p></div><div><h2>Explore</h2><ul>${nav.slice(1).map(([label, href]) => `<li><a href="${href}">${label}</a></li>`).join("")}</ul></div><div><h2>O projeto</h2><ul>${footerPages.map(([label, href]) => `<li><a href="${href}">${label}</a></li>`).join("")}<li><a href="preferencias-de-cookies.html">Preferências de Cookies</a></li></ul></div></div><div class="footer-bottom"><div class="wrap"><span>© <span data-year></span> Grid do Autorama</span><span>Conteúdo editorial independente.</span></div></div>`;
+  if (footer) footer.innerHTML = `<div class="footer-main wrap"><div class="footer-about"><a class="brand brand-light" href="index.html"><img class="brand-logo" src="assets/logo-grid-do-autorama.svg" alt=""><span><strong>Grid do Autorama</strong><small>${slogan}</small></span></a><p>Um portal dedicado ao hobby do autorama: suas pistas, seus carrinhos, sua cultura e tudo o que envolve esse universo.</p><p><a href="mailto:${config.contactEmail || "adilsonvsantos@gmail.com"}">${config.contactEmail || "adilsonvsantos@gmail.com"}</a></p></div><div><h2>Explore</h2><ul>${nav.slice(1).map(([label, href]) => `<li><a href="${href}">${label}</a></li>`).join("")}</ul></div><div><h2>O projeto</h2><ul>${footerPages.map(([label, href]) => `<li><a href="${href}">${label}</a></li>`).join("")}<li><a href="preferencias-de-cookies.html">Preferências de Cookies</a></li></ul></div></div><div class="footer-bottom"><div class="wrap"><span>© <span data-year></span> Grid do Autorama</span><span>Conteúdo editorial independente.</span></div></div>`;
   document.querySelectorAll("[data-year]").forEach(el => el.textContent = new Date().getFullYear());
   const toggle = document.querySelector(".menu-toggle");
   if (toggle) toggle.addEventListener("click", () => {
@@ -24,7 +24,7 @@
     document.querySelector("#menu-principal").classList.toggle("is-open", !open);
   });
   const email = document.querySelector("[data-contact-email]");
-  if (email) { email.textContent = config.contactEmail || "[INSERIR E-MAIL OFICIAL]"; if (config.contactEmail && !config.contactEmail.includes("[")) email.href = `mailto:${config.contactEmail}`; }
+  if (email) { email.textContent = config.contactEmail || "adilsonvsantos@gmail.com"; if (config.contactEmail && !config.contactEmail.includes("[")) email.href = `mailto:${config.contactEmail}`; }
   const category = document.querySelector("[data-category-title]");
   if (category) {
     const labels = {pistas:"Pistas", carrinhos:"Carrinhos", montagem:"Montagem e Projetos de Pistas", manutencao:"Manutenção", colecionismo:"Colecionismo", historia:"História", mecanica:"Mecânica e Preparação dos Carrinhos", "cenarios-modelismo":"Cenários e Modelismo"};
@@ -80,7 +80,7 @@
     const ogUrl = document.querySelector('meta[property="og:url"]');
     if (ogUrl) ogUrl.content = `${base}${route}`;
     const resolveAssetUrl = value => {
-      if (!value.includes("[INSERIR DOMÍNIO]")) return value;
+      if (!value.includes("[SEU DOMÍNIO]")) return value;
       const path = value.slice(value.indexOf("]") + 1).replace(/^\/+/, "");
       return `${base}/${path}`;
     };

@@ -64,7 +64,7 @@ export function collectArticles(root = DEFAULT_ROOT, { persistCreatedAt = true }
     const canonicalAttrs = tagAttributes(html, /<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/i);
     if (!h1Match || !canonicalAttrs.href || !/<article\b/i.test(html)) continue;
 
-    const canonical = canonicalAttrs.href.replace('[INSERIR DOMÍNIO]', 'https://grid-do-autorama.invalid');
+    const canonical = canonicalAttrs.href.replace('[SEU DOMÍNIO]', 'https://grid-do-autorama.invalid');
     const route = canonicalRoute(canonical, relative);
     const slug = route.replace(/\/index\.html$/i, '').replace(/\.html$/i, '').split('/').filter(Boolean).at(-1) || 'index';
     const h1End = h1Match.index + h1Match[0].length;

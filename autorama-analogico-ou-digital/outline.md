@@ -7,4 +7,4 @@ Artigo comparativo para quem pesquisa antes de comprar. Público: iniciantes, fa
 - Digital: sinal contínuo, decoder individual, vários carros na mesma faixa e troca de faixa em sistemas compatíveis.
 - Recursos, conversões, limites e compatibilidade dependem de fabricante/modelo; orientar consulta aos manuais.
 - Comparar custos apenas em termos relativos. Sem marcas, modelos ou preços.
-- Tom informal e útil; transparência de autoria com placeholders.
+- Tom informal e útil; transparência de autoria com o nome Adilson V. Santos.

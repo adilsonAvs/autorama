@@ -51,15 +51,15 @@ Em 15 de outubro de 2026, consultei diretamente os 31 endereços oficiais abaixo
 - Página inicial, navegação compartilhada, categorias em estado vazio não indexável e busca com estado vazio.
 - Páginas institucionais: Sobre, Contato, Privacidade, Cookies, Termos de Uso, Aviso Legal e Equipe Editorial.
 - Modelo interno de artigo com `noindex`, autoria, datas, estrutura editorial, imagem demonstrativa e fontes.
-- `robots.txt`, `sitemap.xml`, metadados, links canônicos marcados para substituição, skip link e menu móvel acessível.
+- `robots.txt`, `sitemap.xml`, metadados, links canônicos configurados com o domínio real quando definido, skip link e menu móvel acessível.
 - AdSense e Analytics permanecem inativos; espaço publicitário oculto.
 
 ## Dados ainda necessários
 
-- `[INSERIR DOMÍNIO]`
-- `[INSERIR SLOGAN]`
-- `[INSERIR E-MAIL OFICIAL]`
-- `[INSERIR NOME DO RESPONSÁVEL]`
+- `[SEU DOMÍNIO]`
+- `Pistas, carrinhos e histórias`
+- `adilsonvsantos@gmail.com`
+- `Adilson V. Santos`
 - ID do publisher do AdSense: vazio até aprovação.
 - ID do Google Analytics: vazio até eventual ativação.
 
@@ -67,4 +67,4 @@ O arquivo recebido termina abruptamente em “A Política de Privacidade deve”
 
 ## Antes de publicar
 
-Preencha os marcadores com dados verdadeiros, atualize canônicos e sitemap com o domínio real, revise os textos legais conforme os serviços utilizados e continue publicando conteúdo original. Uma estrutura técnica e páginas institucionais, por si sós, não garantem qualificação ou aprovação no AdSense.
+Quando houver domínio público, substitua `[SEU DOMÍNIO]` nos canônicos e no sitemap pelo endereço real, revise os textos legais conforme os serviços utilizados e continue publicando conteúdo original. Uma estrutura técnica e páginas institucionais, por si sós, não garantem qualificação ou aprovação no AdSense.

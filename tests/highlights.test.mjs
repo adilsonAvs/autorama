@@ -6,7 +6,7 @@ import vm from 'node:vm';
 import { collectArticles, watchArticles, writeIndex } from '../tools/build-highlights.mjs';
 
 function article({ slug, createdAt, modifiedAt, title = slug, canonical }) {
-  const canon = canonical || '[INSERIR DOMÍNIO]/' + slug + '/';
+  const canon = canonical || '[SEU DOMÍNIO]/' + slug + '/';
   return '<!doctype html><html><head><meta charset="utf-8"><meta name="article:created_at" content="' + createdAt + '"><meta name="description" content="Resumo ' + slug + '"><link rel="canonical" href="' + canon + '"></head><body><main><article><header class="article-header"><div class="eyebrow">Categoria teste</div><h1>' + title + '</h1><p>Resumo de ' + title + '.</p></header><figure><img src="images/' + slug + '.webp" width="1200" height="675" alt="Imagem de ' + title + '."></figure><p>Texto.</p></article></main><script type="application/ld+json">{"dateModified":"' + modifiedAt + '"}</script></body></html>';
 }
 
@@ -50,7 +50,7 @@ try {
   fs.mkdirSync(path.join(tieRoot, 'legacy'), { recursive: true });
   fs.writeFileSync(path.join(tieRoot, 'legacy', 'copy.html'), article({
     slug: 'legacy-copy', createdAt: '2026-05-01T00:00:00Z', modifiedAt: '2026-05-02T00:00:00Z',
-    canonical: '[INSERIR DOMÍNIO]/alfa/'
+    canonical: '[SEU DOMÍNIO]/alfa/'
   }));
   const items = collectArticles(tieRoot, { persistCreatedAt: false });
   assert.deepEqual(items.map(item => item.slug), ['alfa', 'zeta']);

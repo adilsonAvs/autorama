@@ -20,7 +20,7 @@
 - **Conteúdo e segurança:** ok — material educativo de hobby, sem promessas de desempenho; cuidados remetem ao manual do conjunto, com orientação sobre estabilidade, cabos, líquidos e ventilação da fonte.
 - **Afirmações e referências:** ok — sem estudos, preços, depoimentos ou marcas inventados; exemplos de espaço estão identificados como pontos de partida que dependem das peças reais. Nenhum link externo foi incluído.
 - **Slots de anúncio:** ok — dois comentários de espaço para anúncio, entre seções e fora de listas.
-- **Autoria e publicação:** marcadores mantidos (`{{NOME_DO_AUTOR}}`, `{{MINIBIO}}`, `{{DATA_DE_PUBLICAÇÃO_ISO}}`) porque o projeto não confirma esses dados.
+- **Autoria e publicação:** autoria padronizada como Adilson V. Santos; as datas devem corresponder à publicação real.
 
 ## Verificações
 

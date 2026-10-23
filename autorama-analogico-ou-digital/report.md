@@ -21,4 +21,4 @@ Arquivos em `../images/`: `hero-analogico-vs-digital`, `controles-analogico`, `c
 
 - Página principal: `index.html` (rota do artigo) e `article.html` (alias sem indexação, canonical para a rota).
 - Links internos apontam para os artigos existentes sobre montagem, manutenção e projeto de pista.
-- Domínio público permanece como `[INSERIR DOMÍNIO]`, conforme o arquivo de configuração do site.
+- Domínio público permanece como `[SEU DOMÍNIO]`, conforme o arquivo de configuração do site.
