@@ -1,5 +1,7 @@
 # Revisão institucional e privacidade — Grid do Autorama
 
+**Atualização técnica (23 de outubro de 2026):** o Google Analytics 4, ID `G-Y4JY54SS4R`, foi integrado após esta revisão. A tag só carrega no domínio configurado quando a pessoa autoriza a categoria Análise; recusar ou revogar impede novas medições. As observações abaixo sobre ausência de Analytics descrevem a verificação original. O AdSense permanece desativado.
+
 **Revisão:** 15 de outubro de 2026. **Idioma:** português do Brasil.
 
 ## Estado verificado no diretório

@@ -25,7 +25,7 @@ O gerador usa exclusivamente o campo `article:created_at`. Para páginas antigas
 
 ## Configuração antes de lançar
 
-Edite `js/config.js` para preencher domínio, slogan, e-mail oficial e responsável editorial com dados verdadeiros. Atualize o sitemap com o domínio escolhido; os canônicos usam o domínio configurado ou o host público quando servidos por HTTP(S). Não preencha IDs de Analytics ou AdSense até configurar esses serviços, revisar privacidade/consentimento e confirmar aprovação aplicável. O controle local de preferências não é CMP certificada nem ativa scripts: integre cada serviço para respeitar escolhas antes de publicar.
+Edite `js/config.js` para preencher domínio, slogan, e-mail oficial e responsável editorial com dados verdadeiros. Atualize o sitemap com o domínio escolhido; os canônicos usam o domínio configurado ou o host público quando servidos por HTTP(S). O GA4 está configurado em `js/config.js` com carregamento condicionado ao consentimento para Análise. Antes de alterar o ID ou publicar outras ferramentas, revise privacidade e consentimento; AdSense continua desativado nesta cópia. O controle local de preferências não é CMP certificada.
 
 ## Artigos e publicidade
 

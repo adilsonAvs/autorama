@@ -3,7 +3,7 @@
 ## Serviços no estado atual
 
 - Google AdSense: sem tag, ID de publisher ou solicitação a anúncios na cópia local; `adsenseAtivo: false` em `js/config.js` reflete o funcionamento verificável deste diretório.
-- Google Analytics: desligado; `analyticsAtivo: false` em `js/config.js`.
+- Google Analytics: GA4 `G-Y4JY54SS4R`, carregado somente após consentimento para Análise; `analyticsAtivo: true` em `js/config.js`.
 - Formulário de contato: usa Web3Forms (`api.web3forms.com/submit`) para processar e encaminhar nome, e-mail e mensagem.
 - Preferências: `preferencias-de-cookies.html` armazena escolhas de análise e publicidade em `localStorage`; nenhum script de análise ou anúncios está instalado. O controle próprio não é CMP certificada.
 - Fontes externas: nenhuma carregada pelo CSS do site.
