@@ -7,6 +7,60 @@
   let current = read();
   window.SITE_COOKIE_PREFERENCES = current || clean(null);
 
+  const config = window.SITE_CONFIG || {};
+  let configuredHost = "";
+  try { configuredHost = new URL(config.domain).hostname.toLowerCase(); } catch { /* No valid public hostname: keep analytics disabled. */ }
+  const measurementId = config.analyticsAtivo === true
+    && location.hostname.toLowerCase() === configuredHost
+    && /^G-[A-Z0-9]+$/.test(config.googleAnalyticsId || "")
+    ? config.googleAnalyticsId
+    : "";
+  let analyticsInitialized = false;
+  let analyticsConsent = current?.analytics === true;
+
+  const initializeAnalytics = () => {
+    if (!measurementId || analyticsInitialized) return;
+    window[`ga-disable-${measurementId}`] = false;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function gtag(){window.dataLayer.push(arguments);};
+    window.gtag("consent", "default", {analytics_storage:"denied"});
+    window.gtag("consent", "update", {analytics_storage:"granted"});
+    window.gtag("js", new Date());
+    window.gtag("config", measurementId);
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+    script.dataset.googleAnalytics = measurementId;
+    document.head.append(script);
+    analyticsInitialized = true;
+  };
+
+  const updateAnalyticsConsent = granted => {
+    if (!measurementId || granted === analyticsConsent) return;
+    analyticsConsent = granted;
+    if (granted) {
+      if (!analyticsInitialized) {
+        initializeAnalytics();
+      } else {
+        window[`ga-disable-${measurementId}`] = false;
+        window.gtag("consent", "update", {analytics_storage:"granted"});
+        window.gtag("event", "page_view", {
+          page_title: document.title,
+          page_location: location.href,
+          page_path: `${location.pathname}${location.search}`
+        });
+      }
+    } else if (analyticsInitialized) {
+      window[`ga-disable-${measurementId}`] = true;
+      window.gtag("consent", "update", {analytics_storage:"denied"});
+    }
+  };
+
+  if (analyticsConsent) initializeAnalytics();
+  window.addEventListener("site:cookie-preferences-change", event => {
+    updateAnalyticsConsent(event.detail?.analytics === true);
+  });
+
   const write = value => {
     const next = {...clean(value), updatedAt:new Date().toISOString()};
     try { localStorage.setItem(storageKey, JSON.stringify(next)); }
@@ -35,7 +89,7 @@
     notice.id = "cookie-consent-notice";
     notice.className = "cookie-consent-notice";
     notice.setAttribute("aria-labelledby", "cookie-consent-title");
-    notice.innerHTML = '<div><h2 id="cookie-consent-title">Suas preferências</h2><p>Esta cópia salva suas escolhas de análise e publicidade no armazenamento local. Nenhuma ferramenta de análise ou anúncio está instalada.</p><a href="preferencias-de-cookies.html">Ver opções</a></div><div class="cookie-consent-actions"><button type="button" data-consent="reject">Recusar opcionais</button><button type="button" data-consent="accept">Aceitar opcionais</button></div>';
+    notice.innerHTML = '<div><h2 id="cookie-consent-title">Suas preferências</h2><p>O Google Analytics 4 só será carregado se você aceitar análise. A publicidade permanece desativada nesta cópia. Você pode alterar sua escolha a qualquer momento.</p><a href="preferencias-de-cookies.html">Ver opções</a></div><div class="cookie-consent-actions"><button type="button" data-consent="reject">Recusar opcionais</button><button type="button" data-consent="accept">Aceitar opcionais</button></div>';
     document.body.append(notice);
     notice.querySelector('[data-consent="reject"]').addEventListener("click", () => write({analytics:false, advertising:false}));
     notice.querySelector('[data-consent="accept"]').addEventListener("click", () => write({analytics:true, advertising:true}));

@@ -7,7 +7,7 @@ import { collectArticles, watchArticles, writeIndex } from '../tools/build-highl
 
 function article({ slug, createdAt, modifiedAt, title = slug, canonical }) {
   const canon = canonical || '[SEU DOMÍNIO]/' + slug + '/';
-  return '<!doctype html><html><head><meta charset="utf-8"><meta name="article:created_at" content="' + createdAt + '"><meta name="description" content="Resumo ' + slug + '"><link rel="canonical" href="' + canon + '"></head><body><main><article><header class="article-header"><div class="eyebrow">Categoria teste</div><h1>' + title + '</h1><p>Resumo de ' + title + '.</p></header><figure><img src="images/' + slug + '.webp" width="1200" height="675" alt="Imagem de ' + title + '."></figure><p>Texto.</p></article></main><script type="application/ld+json">{"dateModified":"' + modifiedAt + '"}</script></body></html>';
+  return '<!doctype html><html><head><meta charset="utf-8"><meta name="article:created_at" content="' + createdAt + '"><meta name="description" content="Resumo ' + slug + '"><link rel="canonical" href="' + canon + '"></head><body><main><article><header class="article-header"><div class="eyebrow">Categoria teste</div><h1>' + title + '</h1><p class="article-byline">Autoria: Adilson V. Santos</p><p>Resumo de ' + title + '.</p></header><figure><img src="images/' + slug + '.webp" width="1200" height="675" alt="Imagem de ' + title + '."></figure><p>Texto.</p></article></main><script type="application/ld+json">{"dateModified":"' + modifiedAt + '"}</script></body></html>';
 }
 
 const root = fs.mkdtempSync(path.join(os.tmpdir(), 'grid-highlights-'));
@@ -22,6 +22,7 @@ try {
   }));
   let items = writeIndex(root);
   assert.deepEqual(items.map(item => item.slug), ['same', 'old']);
+  assert.ok(items.every(item => item.summary.startsWith('Resumo de ')), 'Destaques não devem usar a autoria como resumo');
   const createdAtBeforeEdit = items.find(item => item.slug === 'old').createdAt;
   const oldFile = path.join(root, 'old', 'index.html');
   const oldHtml = fs.readFileSync(oldFile, 'utf8').replace('2035-01-01T00:00:00Z', '2040-01-01T00:00:00Z');

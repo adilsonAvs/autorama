@@ -7,8 +7,8 @@ window.SITE_CONFIG = Object.freeze({
   contactEmail: "adilsonvsantos@gmail.com",
   editorName: "Adilson V. Santos",
   adsensePublisherId: "",
-  googleAnalyticsId: "",
+  googleAnalyticsId: "G-Y4JY54SS4R",
   adsenseAtivo: false,
-  analyticsAtivo: false,
+  analyticsAtivo: true,
   privacyLastUpdated: "2026-10-23"
 });

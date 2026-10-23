@@ -2,6 +2,8 @@
 
 **Revisão:** 15 de outubro de 2026. **Idioma:** português do Brasil.
 
+**Atualização técnica (23 de outubro de 2026):** o Google Analytics 4, ID `G-Y4JY54SS4R`, foi integrado depois desta revisão. A tag só é carregada no domínio configurado quando o visitante autoriza Análise; recusar ou revogar impede novas medições. As observações abaixo sobre ausência de Analytics descrevem o estado verificado em 15 de outubro e foram superadas por esta atualização. A categoria de publicidade e a configuração do AdSense continuam separadas.
+
 ## Estado verificado no diretório
 
 - `js/config.js` traz `[SEU DOMÍNIO]`, sem domínio público configurado. Nenhum endereço foi inventado; canônicos mantêm o marcador em arquivo e usam domínio configurado ou host público corrente quando servido por HTTP(S).

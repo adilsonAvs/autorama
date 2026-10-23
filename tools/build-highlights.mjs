@@ -72,7 +72,8 @@ export function collectArticles(root = DEFAULT_ROOT, { persistCreatedAt = true }
     const headerEnd = html.indexOf('</header>', h1End);
     const articleHeader = headerEnd >= 0 ? html.slice(Math.max(0, headerStart), headerEnd + 9) : html.slice(Math.max(0, headerStart), h1End + 2000);
     const headerTail = html.slice(h1End, headerEnd >= 0 ? headerEnd : h1End + 2000);
-    const summaryMatch = headerTail.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i);
+    const summaryMatch = [...headerTail.matchAll(/<p\b([^>]*)>([\s\S]*?)<\/p>/gi)]
+      .find(match => !/(?:article-byline|byline|article-reading-time|reading-time|updated)/i.test(attributes(`<p${match[1]}>`).class || ''));
     const headStart = html.match(/<head\b[^>]*>/i)?.index ?? 0;
     const head = html.slice(headStart, h1Match.index);
     const createdTags = [...head.matchAll(/<meta\b(?=[^>]*\bname=["']article:created_at["'])[^>]*>/gi)];
@@ -110,7 +111,7 @@ export function collectArticles(root = DEFAULT_ROOT, { persistCreatedAt = true }
     const article = {
       slug,
       title: textOnly(h1Match[1]),
-      summary: textOnly(summaryMatch?.[1]) || textOnly(tagAttributes(html, /<meta\b(?=[^>]*\bname=["']description["'])[^>]*>/i).content) || '',
+      summary: textOnly(summaryMatch?.[2]) || textOnly(tagAttributes(html, /<meta\b(?=[^>]*\bname=["']description["'])[^>]*>/i).content) || '',
       category: textOnly(eyebrowMatch?.[1]) || 'Grid do Autorama',
       href: route,
       image,
