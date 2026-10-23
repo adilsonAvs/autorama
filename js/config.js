@@ -1,7 +1,7 @@
 /* Dados do projeto. Substitua apenas os marcadores pelos dados verdadeiros. */
 window.SITE_CONFIG = Object.freeze({
   name: "Grid do Autorama",
-  domain: "[SEU DOMÍNIO]",
+  domain: "https://www.growgreentips.com",
   language: "pt-BR",
   slogan: "Pistas, carrinhos e histórias",
   contactEmail: "adilsonvsantos@gmail.com",

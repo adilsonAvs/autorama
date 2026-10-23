@@ -80,9 +80,12 @@
     const ogUrl = document.querySelector('meta[property="og:url"]');
     if (ogUrl) ogUrl.content = `${base}${route}`;
     const resolveAssetUrl = value => {
-      if (!value.includes("[SEU DOMÍNIO]")) return value;
-      const path = value.slice(value.indexOf("]") + 1).replace(/^\/+/, "");
-      return `${base}/${path}`;
+      try {
+        const assetUrl = new URL(value, base);
+        return `${base}${assetUrl.pathname}${assetUrl.search}${assetUrl.hash}`;
+      } catch {
+        return value;
+      }
     };
     document.querySelectorAll('meta[property="og:image"], meta[name="twitter:image"]').forEach(meta => {
       meta.content = resolveAssetUrl(meta.content);

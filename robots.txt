@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /modelo-artigo.html
-Sitemap: [SEU DOMÍNIO]/sitemap.xml
+Sitemap: https://www.growgreentips.com/sitemap.xml
